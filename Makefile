@@ -1,2 +1,3 @@
 liner:
-	gcc src/liner.c -L./lib/mgx -I./lib/mgx/inc
+	make -C ./lib/mgx
+	gcc src/liner.c -L./lib/mgx -lmgx -I./lib/mgx/inc -framework OpenGL -framework AppKit
