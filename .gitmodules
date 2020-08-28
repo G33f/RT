@@ -1,0 +1,3 @@
+[submodule "lib/mgx"]
+	path = lib/mgx
+	url = https://github.com/AlexeyBukin/libmgx.git
